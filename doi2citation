@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+curl -LH "Accept: text/x-bibliography;style=${DOI2CITATION_STYLE:-chicago-fullnote-bibliography}" \
+	 https://doi.org/"$1"
